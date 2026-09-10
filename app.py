@@ -92,7 +92,7 @@ with col2:
 # 6. RENDERIZADO DEL MAPA INTERACTIVO (FOLIUM)
 st.markdown("---")
 
-m = folium.Map(location=[-31.6, -60.7], zoom_start=7, tiles="cartodbpositron")
+m = folium.Map(location=[-31.6, -60.7], zoom_start=7, tiles="openstreetmap")
 
 # Capa de gradiente cromático
 folium.Choropleth(
